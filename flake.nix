@@ -24,6 +24,7 @@
         in
         {
           blackfire = pkgs.callPackage ./packages/blackfire { };
+          blackfire-php = pkgs.callPackage ./packages/blackfire-php { };
         }
       );
     };
